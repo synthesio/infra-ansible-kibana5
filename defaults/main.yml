@@ -1,0 +1,10 @@
+---
+kibana5_version: latest
+
+kibana5_autostart: yes
+
+kibana5_elasticsearch_host: '127.0.0.1'
+kibana5_elasticsearch_port: 9200
+
+kibana5_port: 5601
+kibana5_host: '0.0.0.0'

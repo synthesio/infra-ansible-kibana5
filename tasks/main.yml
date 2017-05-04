@@ -1,0 +1,7 @@
+---
+
+- name: Install phase
+  include: install.yml
+
+- name: Configuration phase
+  include: configure.yml
