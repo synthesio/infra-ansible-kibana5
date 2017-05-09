@@ -1,5 +1,5 @@
 ---
-kibana5:
+kibana5_config:
     package:
         version: latest
     service:
