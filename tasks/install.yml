@@ -20,6 +20,6 @@
 
 - name: Installing kibana5 package
   apt:
-    name: "kibana={{ kibana5_package_version }}"
+    name: "kibana={{ kibana5.package.version }}"
     force: yes
     state: present

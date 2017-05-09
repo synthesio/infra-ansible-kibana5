@@ -1,6 +1,9 @@
 ---
 
 - name: configuring kibana5
-  template: src=kibana.yml.j2 dest=/etc/kibana/kibana.yml mode=0644
+  template:
+      src: 'kibana.yml.j2'
+      dest: '/etc/kibana/kibana.yml'
+      mode: 0644
   notify:
     - restart kibana5
