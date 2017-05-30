@@ -15,7 +15,7 @@
 
 - name: Update apt cache
   apt:
-    update_cache: True
+    update_cache: yes
   when: aptkey.changed or repository.changed
 
 - name: Installing kibana5 package
