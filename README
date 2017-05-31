@@ -1,0 +1,10 @@
+# Ansible Kibana 5 role
+
+This role deploys kibana 5 on a Debian hosts.
+
+```
+hosts: all
+  remote_user: root
+  roles:
+    - kibana5
+```
