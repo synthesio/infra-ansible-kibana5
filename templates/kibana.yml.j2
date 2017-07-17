@@ -86,7 +86,8 @@ kibana.defaultAppId: "discover"
 #logging.dest: stdout
 
 # Set the value of this setting to true to suppress all logging output.
-#logging.silent: false
+# XXX: Disable logging because of json using reserved hindsight fields
+logging.silent: true
 
 # Set the value of this setting to true to suppress all logging output other than error messages.
 #logging.quiet: false
